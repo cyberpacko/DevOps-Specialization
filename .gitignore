@@ -1,0 +1,26 @@
+# Ignore secrets and local configs
+*.pem
+*.key
+*.env
+id_rsa
+id_rsa.pub
+
+# Ignore large binaries and logs
+*.log
+*.tar.gz
+*.zip
+
+# Terraform state (never commit)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
